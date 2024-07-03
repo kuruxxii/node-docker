@@ -25,7 +25,7 @@ Ensure you have the following installed:
 ### Installation
 Clone the repository:
 ```
-git clone https://github.com/yourusername/node-docker.git
+git clone https://github.com/kuruxxii/node-docker.git
 cd node-docker
 ```
 
