@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  nginx:
+    ports:
+      - "80:80"
+  app:
+    build:
+      context: .
+      args:
+        NODE_ENV: production
+    environment:
+      - NODE_ENV=production
+      - MONGO_USER=rootusername
+      - MONGO_PASSWORD=rootpassword
+      - SESSION_SECRET=sessionsecret
+    command: npm run start
