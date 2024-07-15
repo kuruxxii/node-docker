@@ -61,4 +61,4 @@ docker-compose -f docker-compose.yml -f docker-compose.prod.yml down
 ```
 
 ## Additional Resources
-For a more detailed walkthrough, feel free to check out my blog post at https://zihanlin.hashnode.dev/how-to-set-up-a-typescript-nodejs-app-with-express-in-a-container.
+For a more detailed walkthrough, feel free to check out my blog post at [https://zihanlin.hashnode.dev/how-to-set-up-a-typescript-nodejs-app-with-express-in-a-container.](https://medium.com/@Zihan.Lin/easy-steps-to-set-up-typescript-with-node-js-and-express-in-a-container-cd7903a4148c)
